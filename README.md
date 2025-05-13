@@ -48,11 +48,11 @@ Les fichiers générés seront placés dans le répertoire `dist/`.
 Pour publier le site sur GitHub Pages :
 
 ```bash
-npm run deploy
+ng build --base-href="./"; npx gh-pages -d dist/frontend-app
 ```
 
 Cette commande construit l'application et la déploie automatiquement sur GitHub Pages. 
-Le site sera accessible à l'adresse : https://[USERNAME].github.io/chessTrainingLandingPage/
+Le site sera accessible à l'adresse : https://lucasBertola.github.io/chessTrainingLandingPage/
 
 ## Tests
 
