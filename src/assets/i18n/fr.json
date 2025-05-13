@@ -1,0 +1,68 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "advantages": "Avantages",
+    "community": "Communauté",
+    "login": "Connexion"
+  },
+  "hero": {
+    "title": "Améliorer vos strategies et vos plans",
+    "subtitle": "Fini la tonne de livres à lire pour apprendre la théorie. Développez vos compétences en résolvant des exercices stratégiques adaptés à votre niveau.",
+    "cta": "Commencer",
+    "tagline": "La meilleure façon d'apprendre les échecs",
+    "practice": "par la pratique",
+    "free": "100% Gratuit",
+    "noAds": "Sans publicité",
+    "discover": "Découvrir",
+    "exercise": "Exemple d'exercice",
+    "online": "En ligne",
+    "bestMove": "Trouvez le meilleur coup pour les blancs",
+    "difficulty": "Difficulté:",
+    "solved": "ont résolu",
+    "try": "Essayer"
+  },
+  "features": {
+    "title": "Progressez à votre rythme",
+    "subtitle": "Découvrez nos fonctionnalités conçues pour vous aider à devenir un meilleur joueur",
+    "whyChooseUs": "Pourquoi nous choisir",
+    "practiceTitle": "Apprendre en pratiquant",
+    "practiceDesc": "Fini la mémorisation passive. Aiguisez votre intuition stratégique en résolvant des exercices pratiques spécialement sélectionnés.",
+    "adaptiveTitle": "Progression adaptative",
+    "adaptiveDesc": "Des exercices qui évoluent avec votre niveau pour un apprentissage optimal et constant. Le système s'adapte à vos forces et faiblesses.",
+    "communityTitle": "Communauté collaborative",
+    "communityDesc": "Profitez des conseils et des explications de la communauté sur chaque exercice. Apprenez des meilleurs joueurs et partagez vos connaissances.",
+    "freeTitle": "100% Gratuit",
+    "freeDesc": "Aucun abonnement, aucune fonctionnalité premium cachée, aucune publicité. Tout le contenu et toutes les fonctionnalités sont disponibles gratuitement pour tous les utilisateurs.",
+    "learnMore": "En savoir plus",
+    "commitment": "Notre engagement"
+  },
+  "community": {
+    "title": "Rejoignez notre communauté",
+    "subtitle": "Partagez, apprenez et progressez avec d'autres passionnés d'échecs",
+    "ourCommunity": "Notre communauté",
+    "active": "Actifs",
+    "discussionsTitle": "Discussions enrichissantes",
+    "discussionsDesc": "Échangez avec d'autres joueurs sur chaque exercice. Partagez vos idées, vos stratégies et apprenez de l'expérience collective pour progresser plus rapidement.",
+    "exercisesTitle": "Exercices travaillés collectivement",
+    "exercisesDesc": "Chaque exercice est créé, affiné et validé par la communauté. Les explications sont constamment améliorées pour garantir une compréhension optimale des stratégies.",
+    "learningTitle": "Apprentissage optimisé",
+    "learningDesc": "Bénéficiez de l'expertise collective pour comprendre les subtilités de chaque position. Les explications sont rédigées pour s'adapter à votre niveau et renforcer votre progression.",
+    "joinButton": "Rejoindre la communauté",
+    "testimonials": "Ce que disent nos membres",
+    "testimonial1Name": "Marc, 35 ans",
+    "testimonial2Name": "Thomas, 28 ans",
+    "testimonial3Name": "Sophie, 42 ans",
+    "chessImage": "Image d'un jeu d'échecs communautaire",
+    "testimonialsQuote1": "Les explications de la communauté m'ont permis de comprendre des concepts stratégiques que je n'avais jamais saisis auparavant. J'ai gagné 200 points Elo en seulement deux mois !",
+    "testimonialsQuote2": "J'adore contribuer aux exercices et voir mes explications aider d'autres joueurs. C'est gratifiant de faire partie d'une communauté qui s'entraide et progresse ensemble.",
+    "testimonialsQuote3": "Le fait que les exercices soient constamment améliorés par la communauté fait toute la différence. Les explications sont claires et adaptées à tous les niveaux."
+  },
+  "language": {
+    "fr": "Français",
+    "en": "Anglais",
+    "es": "Espagnol",
+    "de": "Allemand",
+    "ja": "Japonais",
+    "ru": "Russe"
+  }
+} 

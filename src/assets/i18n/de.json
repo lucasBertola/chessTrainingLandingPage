@@ -1,0 +1,68 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "advantages": "Vorteile",
+    "community": "Gemeinschaft",
+    "login": "Anmelden"
+  },
+  "hero": {
+    "title": "Verbessere deine Strategien und Pläne",
+    "subtitle": "Keine Stapel von Büchern mehr, um Theorie zu lernen. Entwickle deine Fähigkeiten durch das Lösen strategischer Übungen, die an dein Niveau angepasst sind.",
+    "cta": "Starten",
+    "tagline": "Der beste Weg, Schach zu lernen",
+    "practice": "durch Übung",
+    "free": "100% Kostenlos",
+    "noAds": "Keine Werbung",
+    "discover": "Entdecken",
+    "exercise": "Übungsbeispiel",
+    "online": "Online",
+    "bestMove": "Finde den besten Zug für Weiß",
+    "difficulty": "Schwierigkeit:",
+    "solved": "haben gelöst",
+    "try": "Versuchen"
+  },
+  "features": {
+    "title": "Fortschritte in deinem eigenen Tempo",
+    "subtitle": "Entdecke unsere Funktionen, die dir helfen, ein besserer Spieler zu werden",
+    "whyChooseUs": "Warum uns wählen",
+    "practiceTitle": "Lernen durch Üben",
+    "practiceDesc": "Keine passive Auswendiglernerei mehr. Schärfe deine strategische Intuition, indem du speziell ausgewählte praktische Übungen löst.",
+    "adaptiveTitle": "Adaptive Progression",
+    "adaptiveDesc": "Übungen, die sich mit deinem Niveau entwickeln, für optimales und konstantes Lernen. Das System passt sich an deine Stärken und Schwächen an.",
+    "communityTitle": "Kollaborative Gemeinschaft",
+    "communityDesc": "Profitiere von Gemeinschaftsratschlägen und Erklärungen zu jeder Übung. Lerne von den besten Spielern und teile dein Wissen.",
+    "freeTitle": "100% Kostenlos",
+    "freeDesc": "Kein Abonnement, keine versteckten Premium-Funktionen, keine Werbung. Alle Inhalte und Funktionen sind für alle Benutzer kostenlos verfügbar.",
+    "learnMore": "Mehr erfahren",
+    "commitment": "Unser Engagement"
+  },
+  "community": {
+    "title": "Tritt unserer Gemeinschaft bei",
+    "subtitle": "Teile, lerne und entwickle dich mit anderen Schachbegeisterten weiter",
+    "ourCommunity": "Unsere Gemeinschaft",
+    "active": "Aktiv",
+    "discussionsTitle": "Bereichernde Diskussionen",
+    "discussionsDesc": "Tausche dich mit anderen Spielern zu jeder Übung aus. Teile deine Ideen und Strategien und lerne aus kollektiven Erfahrungen, um schneller Fortschritte zu machen.",
+    "exercisesTitle": "Gemeinsam erarbeitete Übungen",
+    "exercisesDesc": "Jede Übung wird von der Gemeinschaft erstellt, verfeinert und validiert. Erklärungen werden ständig verbessert, um ein optimales Verständnis der Strategien zu gewährleisten.",
+    "learningTitle": "Optimiertes Lernen",
+    "learningDesc": "Profitiere von kollektivem Fachwissen, um die Feinheiten jeder Position zu verstehen. Erklärungen sind so geschrieben, dass sie sich an dein Niveau anpassen und deinen Fortschritt stärken.",
+    "joinButton": "Der Gemeinschaft beitreten",
+    "testimonials": "Was unsere Mitglieder sagen",
+    "testimonial1Name": "Markus, 35",
+    "testimonial2Name": "Thomas, 28",
+    "testimonial3Name": "Sophie, 42",
+    "chessImage": "Bild eines Gemeinschaftsschachspiels",
+    "testimonialsQuote1": "Die Erklärungen der Gemeinschaft haben mir geholfen, strategische Konzepte zu verstehen, die ich vorher nie begriffen hatte. Ich habe in nur zwei Monaten 200 Elo-Punkte gewonnen!",
+    "testimonialsQuote2": "Ich liebe es, zu Übungen beizutragen und zu sehen, wie meine Erklärungen anderen Spielern helfen. Es ist bereichernd, Teil einer Gemeinschaft zu sein, die sich gegenseitig hilft und gemeinsam vorankommt.",
+    "testimonialsQuote3": "Die Tatsache, dass Übungen ständig von der Gemeinschaft verbessert werden, macht den ganzen Unterschied. Die Erklärungen sind klar und an alle Niveaus angepasst."
+  },
+  "language": {
+    "fr": "Französisch",
+    "en": "Englisch",
+    "es": "Spanisch",
+    "de": "Deutsch",
+    "ja": "Japanisch",
+    "ru": "Russisch"
+  }
+} 

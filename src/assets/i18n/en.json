@@ -1,0 +1,68 @@
+{
+  "navbar": {
+    "home": "Home",
+    "advantages": "Advantages",
+    "community": "Community",
+    "login": "Login"
+  },
+  "hero": {
+    "title": "Improve your strategies and plans",
+    "subtitle": "No more piles of books to read for learning theory. Develop your skills by solving strategic exercises adapted to your level.",
+    "cta": "Start",
+    "tagline": "The best way to learn chess",
+    "practice": "by practice",
+    "free": "100% Free",
+    "noAds": "No ads",
+    "discover": "Discover",
+    "exercise": "Exercise example",
+    "online": "Online",
+    "bestMove": "Find the best move for white",
+    "difficulty": "Difficulty:",
+    "solved": "have solved",
+    "try": "Try"
+  },
+  "features": {
+    "title": "Progress at your own pace",
+    "subtitle": "Discover our features designed to help you become a better player",
+    "whyChooseUs": "Why choose us",
+    "practiceTitle": "Learn by practicing",
+    "practiceDesc": "No more passive memorization. Sharpen your strategic intuition by solving specially selected practical exercises.",
+    "adaptiveTitle": "Adaptive progression",
+    "adaptiveDesc": "Exercises that evolve with your level for optimal and constant learning. The system adapts to your strengths and weaknesses.",
+    "communityTitle": "Collaborative community",
+    "communityDesc": "Benefit from community advice and explanations on each exercise. Learn from the best players and share your knowledge.",
+    "freeTitle": "100% Free",
+    "freeDesc": "No subscription, no hidden premium features, no ads. All content and features are available for free to all users.",
+    "learnMore": "Learn more",
+    "commitment": "Our commitment"
+  },
+  "community": {
+    "title": "Join our community",
+    "subtitle": "Share, learn and progress with other chess enthusiasts",
+    "ourCommunity": "Our community",
+    "active": "Active",
+    "discussionsTitle": "Enriching discussions",
+    "discussionsDesc": "Exchange with other players on each exercise. Share your ideas, strategies and learn from collective experience to progress faster.",
+    "exercisesTitle": "Collectively crafted exercises",
+    "exercisesDesc": "Each exercise is created, refined and validated by the community. Explanations are constantly improved to ensure optimal understanding of strategies.",
+    "learningTitle": "Optimized learning",
+    "learningDesc": "Benefit from collective expertise to understand the subtleties of each position. Explanations are written to adapt to your level and strengthen your progression.",
+    "joinButton": "Join the community",
+    "testimonials": "What our members say",
+    "testimonial1Name": "Mark, 35",
+    "testimonial2Name": "Thomas, 28",
+    "testimonial3Name": "Sophie, 42",
+    "chessImage": "Image of a community chess game",
+    "testimonialsQuote1": "The community explanations allowed me to understand strategic concepts that I had never grasped before. I gained 200 Elo points in just two months!",
+    "testimonialsQuote2": "I love contributing to exercises and seeing my explanations help other players. It's rewarding to be part of a community that helps each other and progresses together.",
+    "testimonialsQuote3": "The fact that exercises are constantly improved by the community makes all the difference. The explanations are clear and adapted to all levels."
+  },
+  "language": {
+    "fr": "French",
+    "en": "English",
+    "es": "Spanish",
+    "de": "German",
+    "ja": "Japanese",
+    "ru": "Russian"
+  }
+} 

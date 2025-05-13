@@ -1,0 +1,68 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "advantages": "Ventajas",
+    "community": "Comunidad",
+    "login": "Conexión"
+  },
+  "hero": {
+    "title": "Mejora tus estrategias y planes",
+    "subtitle": "No más pilas de libros para aprender teoría. Desarrolla tus habilidades resolviendo ejercicios estratégicos adaptados a tu nivel.",
+    "cta": "Comenzar",
+    "tagline": "La mejor manera de aprender ajedrez",
+    "practice": "con la práctica",
+    "free": "100% Gratis",
+    "noAds": "Sin anuncios",
+    "discover": "Descubrir",
+    "exercise": "Ejemplo de ejercicio",
+    "online": "En línea",
+    "bestMove": "Encuentra la mejor jugada para las blancas",
+    "difficulty": "Dificultad:",
+    "solved": "han resuelto",
+    "try": "Probar"
+  },
+  "features": {
+    "title": "Progresa a tu ritmo",
+    "subtitle": "Descubre nuestras características diseñadas para ayudarte a convertirte en un mejor jugador",
+    "whyChooseUs": "Por qué elegirnos",
+    "practiceTitle": "Aprende practicando",
+    "practiceDesc": "No más memorización pasiva. Afina tu intuición estratégica resolviendo ejercicios prácticos especialmente seleccionados.",
+    "adaptiveTitle": "Progresión adaptativa",
+    "adaptiveDesc": "Ejercicios que evolucionan con tu nivel para un aprendizaje óptimo y constante. El sistema se adapta a tus fortalezas y debilidades.",
+    "communityTitle": "Comunidad colaborativa",
+    "communityDesc": "Benefíciate de los consejos y explicaciones de la comunidad en cada ejercicio. Aprende de los mejores jugadores y comparte tu conocimiento.",
+    "freeTitle": "100% Gratis",
+    "freeDesc": "Sin suscripción, sin funciones premium ocultas, sin anuncios. Todo el contenido y todas las funcionalidades están disponibles gratuitamente para todos los usuarios.",
+    "learnMore": "Saber más",
+    "commitment": "Nuestro compromiso"
+  },
+  "community": {
+    "title": "Únete a nuestra comunidad",
+    "subtitle": "Comparte, aprende y progresa con otros entusiastas del ajedrez",
+    "ourCommunity": "Nuestra comunidad",
+    "active": "Activos",
+    "discussionsTitle": "Discusiones enriquecedoras",
+    "discussionsDesc": "Intercambia con otros jugadores en cada ejercicio. Comparte tus ideas, estrategias y aprende de la experiencia colectiva para progresar más rápido.",
+    "exercisesTitle": "Ejercicios elaborados colectivamente",
+    "exercisesDesc": "Cada ejercicio es creado, refinado y validado por la comunidad. Las explicaciones se mejoran constantemente para garantizar una comprensión óptima de las estrategias.",
+    "learningTitle": "Aprendizaje optimizado",
+    "learningDesc": "Benefíciate de la experiencia colectiva para entender las sutilezas de cada posición. Las explicaciones están escritas para adaptarse a tu nivel y fortalecer tu progresión.",
+    "joinButton": "Unirse a la comunidad",
+    "testimonials": "Lo que dicen nuestros miembros",
+    "testimonial1Name": "Marcos, 35",
+    "testimonial2Name": "Tomás, 28",
+    "testimonial3Name": "Sofía, 42",
+    "chessImage": "Imagen de un juego de ajedrez comunitario",
+    "testimonialsQuote1": "Las explicaciones de la comunidad me permitieron entender conceptos estratégicos que nunca había comprendido antes. ¡Gané 200 puntos Elo en solo dos meses!",
+    "testimonialsQuote2": "Me encanta contribuir a los ejercicios y ver que mis explicaciones ayudan a otros jugadores. Es gratificante ser parte de una comunidad que se ayuda mutuamente y progresa junta.",
+    "testimonialsQuote3": "El hecho de que los ejercicios sean constantemente mejorados por la comunidad marca toda la diferencia. Las explicaciones son claras y adaptadas a todos los niveles."
+  },
+  "language": {
+    "fr": "Francés",
+    "en": "Inglés",
+    "es": "Español",
+    "de": "Alemán",
+    "ja": "Japonés",
+    "ru": "Ruso"
+  }
+} 

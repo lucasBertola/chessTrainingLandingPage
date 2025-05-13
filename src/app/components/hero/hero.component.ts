@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-hero',
   template: `
-    <header class="relative pt-10 overflow-hidden">
+    <header class="relative pt-10 overflow-hidden" id="accueil">
       <div class="absolute inset-0 bg-gradient-to-b from-gray-50 to-white"></div>
       
       <!-- Formes géométriques décoratives -->
@@ -24,13 +25,13 @@ import { Component } from '@angular/core';
           <div class="md:w-1/2 md:pr-6 relative z-10">
             <div class="inline-flex items-center px-2 py-1 rounded-full bg-gradient-to-r from-primary-500/20 to-primary-700/20 text-primary-700 mb-2 backdrop-blur-sm">
               <span class="w-1.5 h-1.5 rounded-full bg-primary-500 mr-1.5"></span>
-              <p class="font-medium text-xs">La meilleure façon d'apprendre les échecs</p>
+              <p class="font-medium text-xs">{{ 'hero.tagline' | translate }}</p>
             </div>
             
             <h1 class="text-xl md:text-2xl font-extrabold mb-2 leading-tight">
-              <span class="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 block">Améliorez votre stratégie d'échecs</span>
+              <span class="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 block">{{ 'hero.title' | translate }}</span>
               <div class="relative inline-block mt-1">
-                <span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-teal-400">par la pratique</span>
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-teal-400">{{ 'hero.practice' | translate }}</span>
                 <svg class="absolute -bottom-1 left-0 w-full" viewBox="0 0 300 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 5.5C17.6667 3.5 71.2 0.2 160 3C248.8 5.8 290.167 9.5 301 11" stroke="url(#paint0_linear)" stroke-width="3" stroke-linecap="round"/>
                   <defs>
@@ -44,16 +45,16 @@ import { Component } from '@angular/core';
             </h1>
             
             <p class="text-sm text-gray-600 mb-2 md:max-w-md">
-              Fini la tonne de livres à lire pour apprendre la théorie. Développez vos compétences en résolvant des exercices stratégiques adaptés à votre niveau.
+              {{ 'hero.subtitle' | translate }}
             </p>
             
             <!-- Badge 100% Gratuit -->
             <div class="inline-flex items-center mb-3 space-x-2">
               <div class="h-6 px-2 bg-gradient-to-r from-primary-600 to-teal-500 rounded-l-full flex items-center">
-                <span class="text-white font-bold text-xs">100% Gratuit</span>
+                <span class="text-white font-bold text-xs">{{ 'hero.free' | translate }}</span>
               </div>
               <div class="h-6 px-2 bg-gray-100 rounded-r-full flex items-center">
-                <span class="text-gray-700 text-xs">Sans publicité</span>
+                <span class="text-gray-700 text-xs">{{ 'hero.noAds' | translate }}</span>
               </div>
             </div>
             
@@ -65,7 +66,7 @@ import { Component } from '@angular/core';
                   <svg class="w-3 h-3 mr-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 4V20M12 4L7 9M12 4L17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                  Commencer
+                  {{ 'hero.cta' | translate }}
                 </span>
               </button>
               
@@ -75,7 +76,7 @@ import { Component } from '@angular/core';
                   <svg class="w-3 h-3 mr-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11 17L6 12M6 12L11 7M6 12H18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                  Découvrir
+                  {{ 'hero.discover' | translate }}
                 </span>
               </button>
             </div>
@@ -83,10 +84,10 @@ import { Component } from '@angular/core';
           <div class="mt-4 md:mt-0 md:w-1/2">
             <div class="bg-white rounded-xl shadow-lg p-2.5 max-w-md mx-auto transform hover:scale-105 transition-transform duration-300 relative z-10 backdrop-blur-sm bg-white/80">
               <div class="flex items-center justify-between mb-1.5">
-                <h3 class="text-sm font-semibold text-gray-800">Exemple d'exercice</h3>
+                <h3 class="text-sm font-semibold text-gray-800">{{ 'hero.exercise' | translate }}</h3>
                 <div class="flex items-center">
                   <span class="h-1.5 w-1.5 rounded-full bg-green-400"></span>
-                  <span class="ml-1 text-xs font-medium text-green-600">En ligne</span>
+                  <span class="ml-1 text-xs font-medium text-green-600">{{ 'hero.online' | translate }}</span>
                 </div>
               </div>
               
@@ -94,8 +95,8 @@ import { Component } from '@angular/core';
               <app-chess-board></app-chess-board>
               
               <div class="mt-1.5 p-2 bg-gradient-to-br from-primary-50 to-teal-50 rounded-lg border border-primary-100/50">
-                <p class="text-xs font-semibold text-gray-800">Trouvez le meilleur coup pour les blancs</p>
-                <p class="mt-0.5 text-gray-600 text-xs">Difficulté: <span class="text-primary-600 font-medium">1500 elo</span></p>
+                <p class="text-xs font-semibold text-gray-800">{{ 'hero.bestMove' | translate }}</p>
+                <p class="mt-0.5 text-gray-600 text-xs">{{ 'hero.difficulty' | translate }} <span class="text-primary-600 font-medium">1500 elo</span></p>
                 <div class="mt-1.5 flex justify-between items-center">
                   <div class="flex items-center space-x-1">
                     <div class="flex -space-x-1.5">
@@ -103,10 +104,10 @@ import { Component } from '@angular/core';
                       <div class="w-3.5 h-3.5 rounded-full bg-gray-200 border border-white flex items-center justify-center text-[8px] text-gray-600">S</div>
                       <div class="w-3.5 h-3.5 rounded-full bg-gray-200 border border-white flex items-center justify-center text-[8px] text-gray-600">M</div>
                     </div>
-                    <span class="text-gray-500 text-[10px]">+309 ont résolu</span>
+                    <span class="text-gray-500 text-[10px]">+309 {{ 'hero.solved' | translate }}</span>
                   </div>
                   <button class="bg-gradient-to-r from-primary-600 to-teal-500 text-white text-[10px] font-medium px-2 py-0.5 rounded-md hover:from-primary-500 hover:to-teal-400 transition-colors shadow-sm">
-                    Essayer
+                    {{ 'hero.try' | translate }}
                   </button>
                 </div>
               </div>
@@ -147,5 +148,5 @@ import { Component } from '@angular/core';
   `]
 })
 export class HeroComponent {
-  constructor() {}
+  constructor(private translate: TranslateService) {}
 } 

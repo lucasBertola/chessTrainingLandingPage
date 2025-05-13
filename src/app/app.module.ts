@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
-import { ExtraOptions, RouterModule, Routes } from '@angular/router';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -10,14 +9,19 @@ import { FeaturesComponent } from './components/features/features.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ChessBoardComponent } from './components/chess-board/chess-board.component';
 import { CommunityComponent } from './components/community/community.component';
+import { HomeComponent } from './home/home.component';
 
-const routes: Routes = [];
+// Import des modules de traduction
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-const routerOptions: ExtraOptions = {
-  scrollPositionRestoration: 'enabled',
-  anchorScrolling: 'enabled',
-  scrollOffset: [0, 80] // Décalage pour tenir compte de la navbar fixe
-};
+// Import du module de routage
+import { AppRoutingModule } from './app-routing.module';
+
+// Factory pour le chargeur de traduction
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -27,12 +31,21 @@ const routerOptions: ExtraOptions = {
     FeaturesComponent,
     FooterComponent,
     ChessBoardComponent,
-    CommunityComponent
+    CommunityComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(routes, routerOptions)
+    AppRoutingModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'en',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
