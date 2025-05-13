@@ -43,6 +43,17 @@ npm run build
 
 Les fichiers générés seront placés dans le répertoire `dist/`.
 
+## Publication
+
+Pour publier le site sur GitHub Pages :
+
+```bash
+npm run deploy
+```
+
+Cette commande construit l'application et la déploie automatiquement sur GitHub Pages. 
+Le site sera accessible à l'adresse : https://[USERNAME].github.io/chessTrainingLandingPage/
+
 ## Tests
 
 Pour exécuter les tests unitaires :
