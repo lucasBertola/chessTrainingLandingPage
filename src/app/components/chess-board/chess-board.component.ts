@@ -138,7 +138,7 @@ export class ChessBoardComponent implements AfterViewInit {
   private config: Config = {
     fen: 'r1bqk2r/1p1p1pp1/p1n1pn1p/8/3PP3/P1BB1N2/1P3PPP/R2Q1RK1 w - - 0 1',
     viewOnly: true,
-    coordinates: true,
+    coordinates: false,
     disableContextMenu: true
   };
 
