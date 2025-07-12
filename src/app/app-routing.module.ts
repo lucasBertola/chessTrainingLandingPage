@@ -7,7 +7,7 @@ const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
   anchorScrolling: 'enabled',
   scrollOffset: [0, 80], // Décalage pour tenir compte de la navbar fixe
-  useHash: true // Activer le hash routing pour éviter les erreurs 404 au rafraîchissement
+  useHash: false // Désactiver le hash routing pour avoir des URLs directes
 };
 
 const routes: Routes = [
